@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Easy SUS</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imgs/logo_sus.webp" alt="logo sus">
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">Connect SUS</a>
+            <a href="">Encontre um posto próximo de você</a>
+            <a href="">Reportar erro</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="inicial-page">
+                <h1 class="titsus">Easy <span style="color: #fff ;" >SUS</span></h1>
+                <h2>Com o Easy SUS, marcar seu atendimento muito mais fácil</h2>
+                <span class="button-atend">
+                    <button>Marcar Atendimento</button>
+                    <button>Agendar Consulta</button>
+                </span>
+            </div>
+        </section>
+        <section>
+            <div class="ficha">
+                <h2 id="tit2">Ficha de Atendimento</h2>
+                <p>preencha todos os campos abaixo</p>
+                <form action="">
+                    <fieldset>
+                        <h3>Informações do paciente</h3>
+                        <div>
+                            <label for="nome">
+                                <span>Nome:</span>
+                                <input type="text" name="nome" id="nome" class="input">
+                            </label>
+                            <label for="cpf">
+                                <span>Cpf:</span>
+                                <input type="text" name="cpf" id="cpf" class="input">
+                            </label>
+                            <label for="rg">
+                                <span>rg:</span>
+                                <input type="text" name="rg" id="rg" class="input">
+                            </label>
+                        </div>
+                        <div>
+                            <label for="Telefone">
+                                <span>Telefone:</span>
+                                <input type="text" name="Telefone" id="Telefone" class="input">
+                            </label>
+                            <label for="data">
+                                <span>Data de nascimento:</span>
+                                <input type="text" name="data" id="data" class="input">
+                            </label>
+                            <label for="sexo">
+                                <span>sexo:</span>
+                                <input type="text" name="sexo" id="sexo" class="input">
+                            </label>
+                            
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h3>Detalhes do atendimento</h3>
+                        <div>
+                            <label for="sentindo">
+                                <span name="sentindo" >O que você está sentindo?</span>
+                            <textarea class="input" name="sentindo" id="sentindo" cols="50" rows="2"></textarea></label>
+                            <span id="vacina-covid">
+                                <span>quantas doses da vacina (covid-19) já tomou?</span>
+                                <select name="vacina" id="vacina">
+                                    <option value="4">4° Doses</option>
+                                    <option value="3">3° Doses</option>
+                                    <option value="2">2° Doses</option>
+                                    <option value="1">1° Doses</option>
+                                    <option value="nv">não me vacinei</option>
+                                </select>
+                            </span>   
+                        </div>
+                        
+                    </fieldset>
+                    <div>
+                        <input type="submit" value="Solicitar consulta" class="button">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="inicial-page2">
+            <h1 class="titsus2">O sus evoluiu para te trazer conforto</h1>
+            <h2>agende suas consultas sem sair de casa</h2>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <p>Projeto feito por Rhody 🥰</p>
+    </footer>
+</body>
+</html>
