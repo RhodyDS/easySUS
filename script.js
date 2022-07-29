@@ -1,4 +1,9 @@
 const inputs = document.querySelectorAll('.input');
+const marcar = document.querySelector('#marcar');
+
+marcar.addEventListener('click',() => {
+    window.scroll({top: window.innerHeight, behavior: 'smooth'});
+})
 
 const handleFocus = ({target}) =>{
     const span = target.previousElementSibling;
